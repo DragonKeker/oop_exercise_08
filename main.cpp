@@ -58,4 +58,5 @@ int main(int argc, char** argv) {
     cv.notify_all();
     subscriber.join();
     return 0;
+    
 }
